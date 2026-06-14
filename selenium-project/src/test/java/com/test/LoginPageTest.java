@@ -18,7 +18,7 @@ public class LoginPageTest {
         driver.get("file:///C:/Users/konda/OneDrive/Desktop/sample/sample/login.html");
 
         driver.findElement(By.id("username"))
-                .sendKeys("admin");
+                .sendKeys("admi");
 
         driver.findElement(By.id("password"))
                 .sendKeys("1234");
